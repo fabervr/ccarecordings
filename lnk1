@@ -1,0 +1,5 @@
+<?php
+    $username_conn_cc_db = "jennie.ritchie";
+    $password_conn_cc_db = "jennie";
+    $conn_cc_db = odbc_connect("DSN_NAME", $username_conn_cc_db, $password_conn_cc_db);
+?>

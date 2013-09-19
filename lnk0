@@ -1,0 +1,7 @@
+<?php
+    $hostname_conn_db = "localhost";
+    $database_conn_db = "cca";
+    $username_conn_db = "root";
+    $password_conn_db = "trafficbroker";
+    $conn_db = mysql_connect($hostname_conn_db, $username_conn_db, $password_conn_db) or trigger_error(mysql_error(),E_USER_ERROR);
+?>

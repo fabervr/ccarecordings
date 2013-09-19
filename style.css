@@ -1,0 +1,42 @@
+body {
+    font-family:"Verdana", Times, serif;
+    font-size:0.75em;
+}
+
+fieldset {
+    border: 1px solid #FFFFFF;
+    width: 20em;
+}
+
+#calls {
+    border-collapse:collapse;
+    border:1px solid #00008A;    
+}
+
+.callstd {
+    padding:5px;
+    border-collapse:collapse;
+    border:1px solid #00008A;    
+}
+
+.highlight { 
+  background-color: #8099E6;
+}
+
+.normal { 
+  background-color: #FFFFFF;
+}
+
+
+th {
+    background-color:#00008A;
+    color:white;
+    padding:5px;
+    border-collapse:collapse;
+    border:1px solid #FFFFFF;    
+}
+
+#selectors {
+    background-color:#8099E6;
+    color:white;
+}
